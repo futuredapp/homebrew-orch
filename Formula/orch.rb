@@ -15,24 +15,24 @@
 class Orch < Formula
   desc "Code-first orchestrator for chaining coding-agent CLIs (Claude Code, Codex)"
   homepage "https://github.com/futuredapp/orch"
-  version "0.0.0"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/futuredapp/orch/releases/download/v0.0.0/orch-darwin-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/futuredapp/orch/releases/download/v0.1.2/orch-darwin-arm64"
+      sha256 "b3391d0d9cd7f12883ce0d098f8e6562d1cdcc7b5afca16c6d1128afd76f0270"
     end
     on_intel do
-      url "https://github.com/futuredapp/orch/releases/download/v0.0.0/orch-darwin-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/futuredapp/orch/releases/download/v0.1.2/orch-darwin-x64"
+      sha256 "f6ee56118dc52a714b46ebc8f14e18e9aac799c5c5f859c4866f4809a78f1e94"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/futuredapp/orch/releases/download/v0.0.0/orch-linux-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/futuredapp/orch/releases/download/v0.1.2/orch-linux-x64"
+      sha256 "98c35e22f98cdc08f0a326a2c4968ca96d8fd9c485d5ad894281aa0fc5a4e970"
     end
   end
 
